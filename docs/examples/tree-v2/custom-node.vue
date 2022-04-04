@@ -1,5 +1,5 @@
 <template>
-  <el-tree-v2 :data="data" :props="props" :height="208">
+  <el-tree-v2 :data="data" :props="props" :height="208" show-checkbox>
     <template #default="{ node }">
       <span class="prefix" :class="{ 'is-leaf': node.isLeaf }"
         >[ElementPlus]</span
